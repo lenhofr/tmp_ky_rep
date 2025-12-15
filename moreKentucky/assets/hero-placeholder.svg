@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f2d5c" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#2f8f5f" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#fbfaf6" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="22%" cy="26%" r="40%">
+      <stop offset="0" stop-color="#b88418" stop-opacity="0.80"/>
+      <stop offset="1" stop-color="#fbfaf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1400" height="900" fill="#fbfaf6"/>
+  <rect width="1400" height="900" fill="url(#sky)"/>
+  <rect width="1400" height="900" fill="url(#sun)"/>
+
+  <!-- rolling hills -->
+  <path d="M0 650 C220 560, 380 720, 620 650 C860 580, 1040 700, 1400 610 L1400 900 L0 900 Z" fill="#1f6f4a" opacity="0.55"/>
+  <path d="M0 710 C220 640, 420 790, 680 710 C920 640, 1100 780, 1400 700 L1400 900 L0 900 Z" fill="#2f8f5f" opacity="0.55"/>
+
+  <!-- simple horse silhouette (placeholder) -->
+  <path d="M1030 565
+           c 24 -24 62 -30 92 -14
+           c 12 6 18 17 18 29
+           c 0 10 -6 20 -16 26
+           l -16 10
+           c -4 18 -10 36 -18 54
+           c -7 16 -18 28 -33 36
+           c -16 9 -33 10 -50 4
+           c -8 -3 -14 -9 -16 -17
+           c -2 -9 2 -18 10 -23
+           c 9 -5 19 -6 29 -3
+           c 10 3 19 2 28 -3
+           c 9 -5 16 -13 20 -24
+           c 5 -12 9 -25 12 -38
+           l -13 -7
+           c -9 -5 -14 -14 -14 -24
+           c 0 -6 2 -12 7 -17
+           z" fill="#0b1220" opacity="0.22"/>
+
+  <!-- label -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#0b1220">
+    <text x="90" y="520" font-size="54" font-weight="900">KENTUCKY HERO PLACEHOLDER</text>
+    <text x="90" y="580" font-size="22" opacity="0.82">Rolling hills + bluegrass vibe • Replace with your photo</text>
+  </g>
+</svg>
